@@ -1,0 +1,13 @@
+interface:
+  display_name: cgjs_mindrecord_reading
+  short_description: 把小铁匠原始思考转译成面向餐饮老板与创业者的可测试选题
+  default_prompt: 使用 $cgjs-mindrecord-reading 完整阅读这批小铁匠素材，逐篇分析选题空间、延展理由、待补故事和处理优先级。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
